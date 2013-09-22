@@ -1,0 +1,10 @@
+/**
+ * FOOTER THEMING
+ */
+
+.footer {
+  @include span-columns(14);
+  background-color: $black;
+  color: #777;
+  padding: 3px 10px;
+}

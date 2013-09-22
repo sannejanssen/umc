@@ -1,0 +1,492 @@
+/**
+ * Print style file
+ *
+ * This file is compiled into print.css
+ */
+/* ---------- Compass Extensions ---------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/toolkit-0\.1\.15\/stylesheets\/toolkit\/_border-box\.scss}line{font-family:\000038}}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/toolkit-0\.1\.15\/stylesheets\/toolkit\/_fluid-media\.scss}line{font-family:\000034}}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ---------- Import base ---------- */
+/**
+ * Variables
+ *
+ * All general variables should be set here.
+ */
+/**
+ * Functions
+ *
+ * All custom functions should be in this file.
+ */
+/**
+ * Mixins
+ *
+ * Snippets of reusable CSS to develop faster and keep code readable
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000319}}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000326}}
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000336}}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000343}}
+[hidden] {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000348}}
+body {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000355}}
+a:focus {
+  outline: thin dotted;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000362}}
+a:hover,
+a:active {
+  outline: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000367}}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000373}}
+b,
+strong {
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000377}}
+blockquote {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000382}}
+dfn {
+  font-style: italic;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000387}}
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000394}}
+p,
+pre {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003103}}
+pre,
+code,
+kbd,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003111}}
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003119}}
+q {
+  quotes: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003124}}
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003129}}
+small {
+  font-size: 75%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003136}}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003143}}
+sup {
+  top: -0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003147}}
+sub {
+  bottom: -0.25em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003158}}
+dl,
+menu,
+ol,
+ul,
+dd {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003165}}
+menu,
+ol,
+ul {
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003171}}
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003181}}
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003189}}
+svg:not(:root) {
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003196}}
+figure {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003203}}
+form {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003208}}
+fieldset {
+  border-color: #c0c0c0;
+  margin: 0 2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003216}}
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+  *margin-left: -7px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003234}}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003249}}
+button,
+input {
+  line-height: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003260}}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+  *overflow: visible;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003273}}
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003282}}
+input[type="checkbox"],
+input[type="radio"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  *height: 13px;
+  *width: 13px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003297}}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003306}}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003313}}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003320}}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003330}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/**
+ * Extendables
+ *
+ * Collect all of your extendable classes, ids and silent extendables.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_extendables\.scss}line{font-family:\0000318}}
+.clearfix, header, footer, .main {
+  *zoom: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_extendables\.scss}line{font-family:\0000321}}
+.clearfix:before, header:before, footer:before, .main:before, .clearfix:after, header:after, footer:after, .main:after {
+  display: table;
+  content: "";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_extendables\.scss}line{font-family:\0000325}}
+.clearfix:after, header:after, footer:after, .main:after {
+  clear: both;
+}
+
+/**
+ * Layout
+ *
+ * All layout theming should go in this file
+ * Base font size: 14px
+ */
+/* Breakpoints */
+/* iPhone landscape */
+/* iPad portrait */
+/* iPad landscape */
+/* Breakpoints for copy */
+                            /*
+$breakpoint_1: 22em lt-ie9; /* iPhone landscape */
+                            /*
+$breakpoint_2: 32em lt-ie9; /* iPad portrait */
+                            /*
+$breakpoint_3: 49em lt-ie9; /* iPad landscape */
+                                                /*
+*/
+/* Layout */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_layout\.scss}line{font-family:\0000327}}
+.container {
+  *zoom: 1;
+  max-width: 62.632em;
+  _width: 62.632em;
+  padding-left: 0.625em;
+  padding-right: 0.625em;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.13\.alpha\.0\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Layout setup */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_layout\.scss}line{font-family:\0000346}}
+.site-name,
+.facebook,
+.primary-navigation,
+.secondary-navigation {
+  width: 100%;
+  float: left;
+  margin-right: 1.99578%;
+  display: inline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_layout\.scss}line{font-family:\0000352}}
+.main {
+  width: 100%;
+  float: left;
+  margin-right: 1.99578%;
+  display: inline;
+  background-color: orange;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_layout\.scss}line{font-family:\0000357}}
+.sidebar-first {
+  width: 100%;
+  float: left;
+  margin-right: 1.99578%;
+  display: inline;
+  background-color: green;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_layout\.scss}line{font-family:\0000362}}
+.sidebar-second {
+  width: 100%;
+  float: left;
+  margin-right: 1.99578%;
+  display: inline;
+  background-color: red;
+}
+
+/**
+ * Colors
+ *
+ * All colors used in the project should be declared here.
+ */
+/**
+ * Typography
+ *
+ * All typography settings belong in this file.
+ * px to em converter: pxtoem.com
+ *
+ * If you change the base-font-size, check your grid settings in base/layout.scss 
+ */
+@font-face {
+  font-family: 'DaxRegular';
+  src: url("../fonts/dax-regular-webfont.eot");
+  src: url("../fonts/dax-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/dax-regular-webfont.woff") format("woff"), url("../fonts/dax-regular-webfont.ttf") format("truetype"), url("../fonts/dax-regular-webfont.svg#DaxRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DaxMedium';
+  src: url("../fonts/dax-medium-webfont.eot");
+  src: url("../fonts/dax-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/dax-medium-webfont.woff") format("woff"), url("../fonts/dax-medium-webfont.ttf") format("truetype"), url("../fonts/dax-medium-webfont.svg#DaxMedium") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_typography\.scss}line{font-family:\0000351}}
+html {
+  font-size: 100%;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_typography\.scss}line{font-family:\0000362}}
+html,
+button,
+input,
+select,
+textarea {
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+}
+
+/* Line-heights */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_typography\.scss}line{font-family:\0000369}}
+body {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_typography\.scss}line{font-family:\0000373}}
+h1 {
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_typography\.scss}line{font-family:\0000377}}
+h2 {
+  font-size: 1.5em;
+  line-height: 2em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_typography\.scss}line{font-family:\0000381}}
+h3 {
+  font-size: 1.17em;
+  line-height: 1.28205em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_typography\.scss}line{font-family:\0000385}}
+h4 {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_typography\.scss}line{font-family:\0000389}}
+h5 {
+  font-size: 0.83em;
+  line-height: 1.80723em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_typography\.scss}line{font-family:\0000393}}
+h6 {
+  font-size: 0.75em;
+  line-height: 2em;
+}

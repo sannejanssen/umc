@@ -1,0 +1,49 @@
+<?php
+/**
+ * @file
+ * Custom module for United Music Concepts.
+ *
+ */
+
+/**
+ * Implements hook_block_info().
+ */
+function umc_block_info() {
+
+  $blocks = array();
+
+  $blocks['umc_footer'] = array(
+    'info' => t('UMC Footer block'),
+    'cache' => DRUPAL_NO_CACHE,
+  );
+
+  /*
+  
+
+  $blocks['bb-contact-information'] = array(
+    'info' => t('Blue Bees contact information'),
+    'cache' => DRUPAL_NO_CACHE,
+  );
+
+  $blocks['bb-footer'] = array(
+    'info' => t('Blue Bees footer'),
+    'cache' => DRUPAL_NO_CACHE,
+  );
+  */
+
+  return $blocks;
+}
+
+/**
+ * Implements of hook_block_view().
+ */
+function umc_block_view($delta) {
+
+  switch ($delta) {
+    
+    case 'umc_footer':
+      module_load_include('inc', 'umc', 'includes/blocks');
+      return umc_block_footer();
+
+  }
+}

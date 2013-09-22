@@ -1,0 +1,60 @@
+/**
+ * HEADER THEMING
+ */
+
+.header {
+  position: relative;
+
+  @include at-breakpoint($breakpoint_3) {
+    position: static;
+  }
+}
+
+.header-top {
+  @include span-columns(14);
+  position: relative;
+  margin-bottom: 10px;
+
+  @include at-breakpoint($breakpoint_3) {
+    @include span-columns(5,14);
+  }
+}
+
+.logo {
+  @include span-columns(8,14);
+
+  @include at-breakpoint($breakpoint_2) {
+    @include span-columns(4,14);
+  }
+
+  @include at-breakpoint($breakpoint_3) {
+    @include span-columns(5,5);
+  }
+}
+
+.site-name {
+  display: none;
+}
+
+.facebook {
+  display: none;
+}
+
+.primary-navigation {
+  @include span-columns(14);
+  display: none;
+
+  @include at-breakpoint($breakpoint_3) {
+    @include span-columns(9 omega,14);
+    display: block !important;
+  }
+}
+
+.secondary-navigation {
+  display: none;
+
+  @include at-breakpoint($breakpoint_3) {
+    @include span-columns(9 omega,14);
+    display: block;
+  }
+}

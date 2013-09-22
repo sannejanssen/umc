@@ -1,0 +1,66 @@
+/**
+ * Layout
+ *
+ * All layout theming should go in this file
+ * Base font size: 14px
+ */
+
+$total-columns: 14;
+$column-width: 3.313em;
+$gutter-width: 1.250em;
+$grid-padding: $gutter-width/2;
+
+/* Breakpoints */
+$breakpoint_1: 23em lt-ie9; /* iPhone landscape */
+$breakpoint_2: 35em lt-ie9; /* iPad portrait */
+$breakpoint_3: 55em lt-ie9; /* iPad landscape */
+
+/* Breakpoints for copy */
+/*
+$breakpoint_1: 22em lt-ie9; /* iPhone landscape *//*
+$breakpoint_2: 32em lt-ie9; /* iPad portrait *//*
+$breakpoint_3: 49em lt-ie9; /* iPad landscape *//*
+*/
+
+
+/* Layout */
+.container {
+  @include container;
+}
+
+header, footer, .main {
+  @extend .clearfix;
+}
+
+
+/* Layout setup */
+.page-wrapper {
+}
+.page {
+}
+
+
+.site-name,
+.facebook,
+.primary-navigation,
+.secondary-navigation {
+  @include span-columns(14);
+}
+
+
+
+.main {
+  @include span-columns(14);
+  background-color: orange;
+}
+
+.sidebar-first {
+  @include span-columns(14);
+  background-color: green;
+}
+
+.sidebar-second {
+  @include span-columns(14);
+  background-color: red;
+
+}

@@ -1,0 +1,26 @@
+name = Wundertheme
+description = Empty Wunderkraut starter theme for Drupal 7
+screenshot = screenshot.png
+version = 1.0
+core = 7.x
+
+; --------------------------------------------------------------------------
+; Regions.
+; --------------------------------------------------------------------------
+
+regions[header] = Header
+regions[primary_navigation] = Primary navigation
+regions[secondary_navigation] = Secondary navigation
+regions[language] = Language switch
+regions[content] = Main content
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+regions[footer] = Footer
+
+;-------------- CSS -------------
+
+; css is added in the template.php
+
+;-------------- js -------------
+;scripts[] = js/retina.js
+scripts[] = js/scripts.js

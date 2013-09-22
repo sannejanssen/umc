@@ -1,0 +1,115 @@
+/**
+ * NAVIGATION THEMING
+ */
+
+/* Primary navigation */
+.navigation-toggle {
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+  display: block;
+  width: 55px;
+  height: 56px;
+  background-image: url(../images/navigation/mobile-navigation.svg);
+  background-repeat: no-repeat;
+  background-position: -1px 0px;
+  text-transform: uppercase;
+  text-indent: -9999px;
+
+  &.selected,
+  &:hover {
+    background-position: -1px -65px;
+  }
+
+  @include at-breakpoint($breakpoint_3) {
+    display: none;
+  }
+}
+
+.primary-navigation {
+  
+  /* Hide the title */
+  h2 {
+    @include element-invisible;
+  }
+
+  @include at-breakpoint($breakpoint_3) {
+    text-align: right;
+  }
+
+  .leaf {
+    a {
+      font-family: $umc-font-family;
+      text-decoration: none;
+      display: block;
+      background-color: #444;
+      text-align: center;
+      border-bottom: 1px solid #999;
+      padding: 12px 0;
+    }
+
+    &.last {
+      a {
+        border-bottom: 0;
+      }
+    }
+
+    @include at-breakpoint($breakpoint_3) {
+      display: inline-block;
+
+      a {
+        border-bottom: none;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Language navigation */
+.language {
+  position: absolute;
+  top: 0;
+  right: 0.7145em;
+
+  @include at-breakpoint($breakpoint_3) {
+    position: static;
+    @include span-columns(3 omega, 14);
+  }
+
+  ul {
+    @extend %horizontal-menu;
+    margin-top: 5px
+  }
+
+  a {
+    display: block;
+    color: #999;
+    margin-right: 5px;
+  }
+
+  .last {
+    a {
+      margin-right: 0;
+    }
+  }
+}
