@@ -56,45 +56,103 @@
 
     @include at-breakpoint($breakpoint_3) {
       display: inline-block;
+      height: 165px;
+
+      &:hover {
+        background-color: rgba(136,36,97,0.4);
+      }
+
 
       a {
+        background-color: transparent;
+        height: 165px;
+        float: left;
+        font-size: 20px;
         border-bottom: none;
+        padding: 0 10px;
+        color: #bbbbbb;
+
+        &:hover {
+          color: $white;
+        }
+
+        &.artists {
+          padding-top: 60px;
+
+          .i18n-nl & {
+            padding-top: 67px;
+          }
+        }
+
+        &.events {
+          padding-top: 50px;
+
+          .i18n-nl & {
+            padding-top: 52px;
+          }
+        }
+
+        &.sound-light {
+          padding-top: 36px;
+
+          .i18n-nl & {
+            padding-top: 35px;
+          }
+        }
+
+        &.pictures {
+          padding-top: 22px;
+
+          .i18n-nl & {
+            padding-top: 21px;
+          }
+        }
+
+        &.contact {
+          padding-top: 11px;
+        }
+
+        span {
+          display: block;
+          @include rotate(-7deg);
+        }
       }
     }
   }
 }
 
+.secondary-navigation {
 
+  /* Hide the title */
+  h2 {
+    @include element-invisible;
+  }
 
+  li {
+    text-align: right;
+    margin-bottom: 3px;
+  }
 
+  a {
+    font-size: 12px;
+    line-height: 16px;
+    display: inline-block;
+    padding: 6px;
+    background-color: $dark-blue;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    &:hover {
+      background-color: $white;
+      color: $dark-blue;
+      text-decoration: none;
+    }
+  }
+}
 
 /* Language navigation */
 .language {
   position: absolute;
   top: 0;
   right: 0.7145em;
-
-  @include at-breakpoint($breakpoint_3) {
-    position: static;
-    @include span-columns(3 omega, 14);
-  }
 
   ul {
     @extend %horizontal-menu;
@@ -110,6 +168,32 @@
   .last {
     a {
       margin-right: 0;
+    }
+  }
+
+  @include at-breakpoint($breakpoint_3) {
+    position: static;
+    @include span-columns(5 omega,14);
+    clear: right;
+    text-align: right;
+
+    a {
+      font-size: 12px;
+      line-height: 16px;
+      display: inline-block;
+      padding: 6px;
+      background-color: $dark-blue;
+      color: $white;
+
+      &:hover {
+        background-color: $white;
+        color: $dark-blue;
+        text-decoration: none;
+      }
+
+      &.active {
+        
+      }
     }
   }
 }

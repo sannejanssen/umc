@@ -80,7 +80,6 @@
  * -
  */
 
-dsm($page);
 ?>
 <div class="page-wrapper">
   <div class="page">
@@ -100,28 +99,20 @@ dsm($page);
             </figure>
           <?php endif; ?>
 
-           <?php if($site_name): ?>
-            <div class="site-name">
-              <?php if($is_front): ?>
-                <h1 class="site-name"><?php print $site_name; ?></h1>
-              <?php else : ?>
-                <p class="site-name"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><?php print $site_name; ?></a></p>
-              <?php endif; ?>
-            </div>
-          <?php endif; ?>
-
-          <div class="facebook">facebook</div>
           <a href="#" class="navigation-toggle"><?php print t('Main navigation'); ?></a>
         </div>
 
-        <?php if ($page['primary_navigation']): ?>
-          <nav class="primary-navigation">
-            <?php print render($page['primary_navigation']); ?>
+        <?php if ($page['navigation']): ?>
+          <nav class="primary-navigation" role="navigation">
+            <?php print render($page['navigation']); ?>
           </nav>
         <?php endif; ?>
 
-        <div class="secondary-navigation">secondary-navigation</div>
-
+        <?php if ($page['secondary_navigation']): ?>
+          <nav class="secondary-navigation" role="navigation">
+            <?php print render($page['secondary_navigation']); ?>
+          </nav>
+        <?php endif; ?>
 
         <?php if ($page['language']): ?>
           <div class="language">
@@ -129,7 +120,24 @@ dsm($page);
           </div>
         <?php endif; ?>
 
+        <div class="site-info">
+          <?php if($site_name): ?>
+            <?php if($is_front): ?>
+              <h1 class="site-name"><?php print $site_name; ?></h1>
+            <?php else : ?>
+              <p class="site-name"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><?php print $site_name; ?></a></p>
+            <?php endif; ?>
+          <?php endif; ?>
+
+          <div class="facebook">
+            <div class="fb-like" data-href="http://www.facebook.com/pages/United-Music-Concepts-UMC/142397865837084" data-send="false" data-layout="button_count" data-width="120" data-show-faces="false">
+            </div>
+          </div>
+        </div>
+
+        <div class="header-img" />
       </div>
+
     </header>
 
     <?php if($messages){ ?>
@@ -143,7 +151,7 @@ dsm($page);
     <?php } ?>
 
     <div class="container">
-      
+
       <div role="main" class="main"><?php print render($page['content']); ?></div>
       <aside role="complementary" class="sidebar-first">sidebar first</aside>
       <aside role="complementary" class="sidebar-second">sidebar second</aside>    
@@ -160,8 +168,14 @@ dsm($page);
   </div> <!-- end page //-->
 </div>
 
-
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/nl_NL/all.js#xfbml=1&appId=107728735990764";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 <?php 
 /*

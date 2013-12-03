@@ -9,7 +9,7 @@ core = 7.x
 ; --------------------------------------------------------------------------
 
 regions[header] = Header
-regions[primary_navigation] = Primary navigation
+regions[navigation] = Primary navigation
 regions[secondary_navigation] = Secondary navigation
 regions[language] = Language switch
 regions[content] = Main content

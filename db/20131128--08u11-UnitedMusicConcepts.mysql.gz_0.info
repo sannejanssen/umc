@@ -1,0 +1,8 @@
+filename = "20131128--08u11-UnitedMusicConcepts"
+description = ""
+datestamp = "1385622829"
+generator = "Backup and Migrate (http://drupal.org/project/backup_migrate)"
+generatorversion = "7.x-2.x"
+sites[0][version] = "7.24"
+sites[0][name] = "United Music Concepts"
+sites[0][url] = "http://umc.local/nl"

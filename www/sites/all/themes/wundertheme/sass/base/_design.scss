@@ -36,6 +36,13 @@ html {
   background-color: #040303;
 }
 
+.page-wrapper {
+  background-image: url('../images/umc_bg.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
 ul {
   list-style: none;
 }
@@ -48,8 +55,18 @@ ul {
 
 .message {
   background-color: #333;
+  color: $white;
   border: 3px solid red;
   margin: 20px 0;
   padding: 20px 0;
+}
 
+/* Hide contextual links wrapper */
+.contextual-links-wrapper {
+  .language & {
+
+    .html & {
+      display: none;
+    }
+  }
 }

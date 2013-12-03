@@ -4,15 +4,17 @@
  * This file is compiled into style.css
  */
 /* ---------- Compass Extensions ---------- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/toolkit-0\.1\.15\/stylesheets\/toolkit\/_border-box\.scss}line{font-family:\000038}}
-* {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/toolkit-0\.2\.1\.3\/stylesheets\/toolkit\/_border-box\.scss}line{font-family:\0000310}}
+*,
+*:after,
+*:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/toolkit-0\.1\.15\/stylesheets\/toolkit\/_fluid-media\.scss}line{font-family:\000034}}
-img {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/toolkit-0\.2\.1\.3\/stylesheets\/toolkit\/_fluid-media\.scss}line{font-family:\000034}}
+img, video {
   max-width: 100%;
   height: auto;
 }
@@ -33,7 +35,7 @@ img {
  *
  * Snippets of reusable CSS to develop faster and keep code readable
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000319}}
 article,
 aside,
 details,
@@ -48,7 +50,7 @@ summary {
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000326}}
 audio,
 canvas,
 video {
@@ -57,67 +59,67 @@ video {
   *zoom: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000336}}
 audio:not([controls]) {
   display: none;
   height: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000343}}
 [hidden] {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000348}}
 body {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000355}}
 a:focus {
   outline: thin dotted;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000362}}
 a:hover,
 a:active {
   outline: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000367}}
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000373}}
 b,
 strong {
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000377}}
 blockquote {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000382}}
 dfn {
   font-style: italic;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000387}}
 mark {
   background: #ff0;
   color: #000;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\0000394}}
 p,
 pre {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003103}}
 pre,
 code,
 kbd,
@@ -126,31 +128,31 @@ samp {
   _font-family: 'courier new', monospace;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003111}}
 pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003119}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003119}}
 q {
   quotes: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003124}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003124}}
 q:before,
 q:after {
   content: '';
   content: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003129}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003129}}
 small {
   font-size: 75%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003136}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003136}}
 sub,
 sup {
   font-size: 75%;
@@ -159,17 +161,17 @@ sup {
   vertical-align: baseline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003143}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003143}}
 sup {
   top: -0.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003147}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003147}}
 sub {
   bottom: -0.25em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003158}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003158}}
 dl,
 menu,
 ol,
@@ -178,48 +180,48 @@ dd {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003165}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003165}}
 menu,
 ol,
 ul {
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003171}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003171}}
 nav ul,
 nav ol {
   list-style: none;
   list-style-image: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003181}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003181}}
 img {
   border: 0;
   -ms-interpolation-mode: bicubic;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003189}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003189}}
 svg:not(:root) {
   overflow: hidden;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003196}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003196}}
 figure {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003203}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003203}}
 form {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003208}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003208}}
 fieldset {
   border-color: #c0c0c0;
   margin: 0 2px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003216}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003216}}
 legend {
   border: 0;
   padding: 0;
@@ -227,7 +229,7 @@ legend {
   *margin-left: -7px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003234}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003234}}
 button,
 input,
 select,
@@ -238,13 +240,13 @@ textarea {
   *vertical-align: middle;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003249}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003249}}
 button,
 input {
   line-height: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003260}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003260}}
 button,
 input[type="button"],
 input[type="reset"],
@@ -254,13 +256,13 @@ input[type="submit"] {
   *overflow: visible;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003273}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003273}}
 button[disabled],
 input[disabled] {
   cursor: default;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003282}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003282}}
 input[type="checkbox"],
 input[type="radio"] {
   -webkit-box-sizing: border-box;
@@ -271,7 +273,7 @@ input[type="radio"] {
   *width: 13px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003297}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003297}}
 input[type="search"] {
   -webkit-appearance: textfield;
   -webkit-box-sizing: content-box;
@@ -279,26 +281,26 @@ input[type="search"] {
   box-sizing: content-box;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003306}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003306}}
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button {
   -webkit-appearance: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003313}}
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003320}}
 textarea {
   overflow: auto;
   vertical-align: top;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_normalize\.scss}line{font-family:\00003330}}
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -309,32 +311,32 @@ table {
  *
  * Collect all of your extendable classes, ids and silent extendables.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_extendables\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_extendables\.scss}line{font-family:\0000318}}
 .clearfix, header, footer, .main {
   *zoom: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_extendables\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_extendables\.scss}line{font-family:\0000321}}
 .clearfix:before, header:before, footer:before, .main:before, .clearfix:after, header:after, footer:after, .main:after {
   display: table;
   content: "";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_extendables\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_extendables\.scss}line{font-family:\0000325}}
 .clearfix:after, header:after, footer:after, .main:after {
   clear: both;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_extendables\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_extendables\.scss}line{font-family:\00003100}}
 .language ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_extendables\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_extendables\.scss}line{font-family:\00003108}}
 .language ul {
   font-size: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_extendables\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/logic\/_extendables\.scss}line{font-family:\00003111}}
 .language ul li {
   display: inline-block;
   font-size: 16px;
@@ -346,6 +348,7 @@ table {
  * All layout theming should go in this file
  * Base font size: 14px
  */
+/* 53px */
 /* Breakpoints */
 /* iPhone landscape */
 /* iPad portrait */
@@ -360,17 +363,18 @@ $breakpoint_3: 49em lt-ie9; /* iPad landscape */
                                                 /*
 */
 /* Layout */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_layout\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_layout\.scss}line{font-family:\0000327}}
 .container {
   *zoom: 1;
   max-width: 62.632em;
   _width: 62.632em;
-  padding-left: 0.625em;
-  padding-right: 0.625em;
+  padding-left: 0.3125em;
+  padding-right: 0.3125em;
   margin-left: auto;
   margin-right: auto;
+  max-width: 62.438em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.13\.alpha\.0\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
 .container:after {
   content: "";
   display: table;
@@ -378,18 +382,7 @@ $breakpoint_3: 49em lt-ie9; /* iPad landscape */
 }
 
 /* Layout setup */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_layout\.scss}line{font-family:\0000346}}
-.site-name,
-.facebook,
-.primary-navigation,
-.secondary-navigation {
-  width: 100%;
-  float: left;
-  margin-right: 1.99578%;
-  display: inline;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_layout\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_layout\.scss}line{font-family:\0000345}}
 .main {
   width: 100%;
   float: left;
@@ -398,7 +391,7 @@ $breakpoint_3: 49em lt-ie9; /* iPad landscape */
   background-color: orange;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_layout\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_layout\.scss}line{font-family:\0000350}}
 .sidebar-first {
   width: 100%;
   float: left;
@@ -407,7 +400,7 @@ $breakpoint_3: 49em lt-ie9; /* iPad landscape */
   background-color: green;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_layout\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_layout\.scss}line{font-family:\0000355}}
 .sidebar-second {
   width: 100%;
   float: left;
@@ -445,7 +438,7 @@ $breakpoint_3: 49em lt-ie9; /* iPad landscape */
   font-style: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_typography\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_typography\.scss}line{font-family:\0000351}}
 html {
   font-size: 100%;
   /* 1 */
@@ -455,7 +448,7 @@ html {
   /* 2 */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_typography\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_typography\.scss}line{font-family:\0000362}}
 html,
 button,
 input,
@@ -466,46 +459,52 @@ textarea {
 }
 
 /* Line-heights */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_typography\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_typography\.scss}line{font-family:\0000369}}
 body {
   font-size: 1em;
   line-height: 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_typography\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_typography\.scss}line{font-family:\0000373}}
 h1 {
   font-size: 2em;
   line-height: 1.5em;
+  font-weight: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_typography\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_typography\.scss}line{font-family:\0000378}}
 h2 {
   font-size: 1.5em;
   line-height: 2em;
+  font-weight: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_typography\.scss}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_typography\.scss}line{font-family:\0000383}}
 h3 {
   font-size: 1.17em;
   line-height: 1.28205em;
+  font-weight: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_typography\.scss}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_typography\.scss}line{font-family:\0000388}}
 h4 {
   font-size: 1em;
   line-height: 1.5em;
+  font-weight: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_typography\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_typography\.scss}line{font-family:\0000393}}
 h5 {
   font-size: 0.83em;
   line-height: 1.80723em;
+  font-weight: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_typography\.scss}line{font-family:\0000393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_typography\.scss}line{font-family:\0000398}}
 h6 {
   font-size: 0.75em;
   line-height: 2em;
+  font-weight: normal;
 }
 
 /*
@@ -516,18 +515,31 @@ h6 {
 /**
  * HEADER THEMING
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_header\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_header\.scss}line{font-family:\000035}}
 .header {
   position: relative;
+  margin-bottom: 20px;
 }
 @media (min-width: 55em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_header\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_header\.scss}line{font-family:\000035}}
   .header {
     position: static;
+    margin-bottom: -230px;
+  }
+}
+@media (min-width: 55em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_header\.scss}line{font-family:\0000314}}
+  .header .header-img {
+    height: 595px;
+    width: 1120px;
+    background-image: url(../images/umc_header.png);
+    background-repeat: no-repeat;
+    background-position: center 35px;
+    margin-left: -101px;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_header\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_header\.scss}line{font-family:\0000326}}
 .header-top {
   width: 100%;
   float: left;
@@ -537,7 +549,7 @@ h6 {
   margin-bottom: 10px;
 }
 @media (min-width: 55em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_header\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_header\.scss}line{font-family:\0000326}}
   .header-top {
     width: 34.43128%;
     float: left;
@@ -545,7 +557,7 @@ h6 {
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_header\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_header\.scss}line{font-family:\0000336}}
 .logo {
   width: 56.28752%;
   float: left;
@@ -553,7 +565,7 @@ h6 {
   display: inline;
 }
 @media (min-width: 35em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_header\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_header\.scss}line{font-family:\0000336}}
   .logo {
     width: 27.14587%;
     float: left;
@@ -561,7 +573,7 @@ h6 {
   }
 }
 @media (min-width: 55em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_header\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_header\.scss}line{font-family:\0000336}}
   .logo {
     width: 100%;
     float: left;
@@ -569,17 +581,39 @@ h6 {
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_header\.scss}line{font-family:\0000335}}
-.site-name {
-  display: none;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_header\.scss}line{font-family:\0000348}}
+.site-info {
+  width: 100%;
+  float: left;
+  margin-right: 1.99578%;
+  display: inline;
+}
+@media (min-width: 55em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_header\.scss}line{font-family:\0000348}}
+  .site-info {
+    width: 63.57293%;
+    float: left;
+    margin-right: 1.99578%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_header\.scss}line{font-family:\0000355}}
+.site-info .site-name {
+  font-family: "DaxRegular", Arial, sans-serif;
+  color: white;
+  text-shadow: #222222 1px 1px;
+  font-size: 30px;
+  line-height: 38px;
+  margin: 0;
+  display: inline;
+  margin-right: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_header\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_header\.scss}line{font-family:\0000367}}
 .facebook {
-  display: none;
+  display: inline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_header\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_header\.scss}line{font-family:\0000371}}
 .primary-navigation {
   width: 100%;
   float: left;
@@ -588,7 +622,7 @@ h6 {
   display: none;
 }
 @media (min-width: 55em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_header\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_header\.scss}line{font-family:\0000371}}
   .primary-navigation {
     width: 63.57293%;
     float: right;
@@ -597,16 +631,17 @@ h6 {
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_header\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_header\.scss}line{font-family:\0000381}}
 .secondary-navigation {
   display: none;
 }
 @media (min-width: 55em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_header\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_header\.scss}line{font-family:\0000381}}
   .secondary-navigation {
-    width: 63.57293%;
+    width: 34.43128%;
     float: right;
     margin-right: 0;
+    min-height: 120px;
     display: block;
   }
 }
@@ -615,7 +650,7 @@ h6 {
  * NAVIGATION THEMING
  */
 /* Primary navigation */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\000036}}
 .navigation-toggle {
   position: absolute;
   bottom: 10px;
@@ -629,22 +664,22 @@ h6 {
   text-transform: uppercase;
   text-indent: -9999px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\0000320}}
 .navigation-toggle.selected, .navigation-toggle:hover {
   background-position: -1px -65px;
 }
 @media (min-width: 55em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\000036}}
   .navigation-toggle {
     display: none;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\0000329}}
 .primary-navigation {
   /* Hide the title */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\0000332}}
 .primary-navigation h2 {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
@@ -652,12 +687,12 @@ h6 {
   clip: rect(1px, 1px, 1px, 1px);
 }
 @media (min-width: 55em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\0000329}}
   .primary-navigation {
     text-align: right;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\0000341}}
 .primary-navigation .leaf a {
   font-family: "DaxRegular", Arial, sans-serif;
   text-decoration: none;
@@ -667,57 +702,165 @@ h6 {
   border-bottom: 1px solid #999;
   padding: 12px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\0000352}}
 .primary-navigation .leaf.last a {
   border-bottom: 0;
 }
 @media (min-width: 55em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\0000340}}
   .primary-navigation .leaf {
     display: inline-block;
+    height: 165px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\0000361}}
+  .primary-navigation .leaf:hover {
+    background-color: rgba(136, 36, 97, 0.4);
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\0000366}}
   .primary-navigation .leaf a {
+    background-color: transparent;
+    height: 165px;
+    float: left;
+    font-size: 20px;
     border-bottom: none;
+    padding: 0 10px;
+    color: #bbbbbb;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\0000375}}
+  .primary-navigation .leaf a:hover {
+    color: white;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\0000379}}
+  .primary-navigation .leaf a.artists {
+    padding-top: 60px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\0000382}}
+  .i18n-nl .primary-navigation .leaf a.artists {
+    padding-top: 67px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\0000387}}
+  .primary-navigation .leaf a.events {
+    padding-top: 50px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\0000390}}
+  .i18n-nl .primary-navigation .leaf a.events {
+    padding-top: 52px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\0000395}}
+  .primary-navigation .leaf a.sound-light {
+    padding-top: 36px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\0000398}}
+  .i18n-nl .primary-navigation .leaf a.sound-light {
+    padding-top: 35px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\00003103}}
+  .primary-navigation .leaf a.pictures {
+    padding-top: 22px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\00003106}}
+  .i18n-nl .primary-navigation .leaf a.pictures {
+    padding-top: 21px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\00003111}}
+  .primary-navigation .leaf a.contact {
+    padding-top: 11px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\00003115}}
+  .primary-navigation .leaf a span {
+    display: block;
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -ms-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+    transform: rotate(-7deg);
   }
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\00003124}}
+.secondary-navigation {
+  /* Hide the title */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\00003127}}
+.secondary-navigation h2 {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\00003131}}
+.secondary-navigation li {
+  text-align: right;
+  margin-bottom: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\00003136}}
+.secondary-navigation a {
+  font-size: 12px;
+  line-height: 16px;
+  display: inline-block;
+  padding: 6px;
+  background-color: #3c4458;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\00003143}}
+.secondary-navigation a:hover {
+  background-color: white;
+  color: #3c4458;
+  text-decoration: none;
+}
+
 /* Language navigation */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\00003152}}
 .language {
   position: absolute;
   top: 0;
   right: 0.7145em;
 }
-@media (min-width: 55em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\0000389}}
-  .language {
-    position: static;
-    width: 19.86045%;
-    float: right;
-    margin-right: 0;
-  }
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\00003157}}
 .language ul {
   margin-top: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\00003104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\00003162}}
 .language a {
   display: block;
   color: #999;
   margin-right: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\00003169}}
 .language .last a {
   margin-right: 0;
+}
+@media (min-width: 55em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\00003152}}
+  .language {
+    position: static;
+    width: 34.43128%;
+    float: right;
+    margin-right: 0;
+    clear: right;
+    text-align: right;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\00003180}}
+  .language a {
+    font-size: 12px;
+    line-height: 16px;
+    display: inline-block;
+    padding: 6px;
+    background-color: #3c4458;
+    color: white;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_navigation\.scss}line{font-family:\00003188}}
+  .language a:hover {
+    background-color: white;
+    color: #3c4458;
+    text-decoration: none;
+  }
 }
 
 /* @import 'elements/main-content'; */
 /**
  * FOOTER THEMING
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_footer\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_footer\.scss}line{font-family:\000035}}
 .footer {
   width: 100%;
   float: left;
@@ -726,25 +869,95 @@ h6 {
   background-color: #333333;
   color: #777;
   padding: 3px 10px;
+  text-align: center;
+}
+@media (min-width: 35em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_footer\.scss}line{font-family:\000035}}
+  .footer {
+    text-align: left;
+    font-size: 12px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_footer\.scss}line{font-family:\0000317}}
+.footer .pipe {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_footer\.scss}line{font-family:\0000321}}
+.footer ul {
+  width: 100%;
+  float: left;
+  margin-right: 1.99578%;
+  display: inline;
+  margin-top: 20px;
+}
+@media (min-width: 35em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_footer\.scss}line{font-family:\0000321}}
+  .footer ul {
+    margin-top: 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_footer\.scss}line{font-family:\0000330}}
+.footer li {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  *margin-left: -1.25em;
+  display: inline;
+  border-top: 1px solid #444;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_footer\.scss}line{font-family:\0000335}}
+.footer li.copyright, .footer li.company-name {
+  display: block;
+  padding: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_footer\.scss}line{font-family:\0000340}}
+.footer li a {
+  display: block;
+  padding: 10px;
+  color: #777;
+}
+@media (min-width: 35em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_footer\.scss}line{font-family:\0000330}}
+  .footer li {
+    float: none;
+    width: auto;
+    margin-right: auto;
+    border-top: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_footer\.scss}line{font-family:\0000351}}
+  .footer li.copyright, .footer li.company-name {
+    display: inline;
+    padding: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_footer\.scss}line{font-family:\0000356}}
+  .footer li a {
+    display: inline;
+    padding: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/elements\/_footer\.scss}line{font-family:\0000361}}
+  .footer li.pipe {
+    display: inline;
+    margin: 0 5px;
+  }
 }
 
 /* Base link settings */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_design\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_design\.scss}line{font-family:\0000313}}
 a {
   color: white;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_design\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_design\.scss}line{font-family:\0000318}}
 a:hover, a:focus {
   text-decoration: underline;
   color: #dddddd;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_design\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_design\.scss}line{font-family:\0000324}}
 html {
   color: #333333;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_design\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_design\.scss}line{font-family:\0000328}}
 html ::selection,
 html ::-moz-selection {
   color: #cccccc;
@@ -752,27 +965,42 @@ html ::-moz-selection {
 }
 
 /* Body */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_design\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_design\.scss}line{font-family:\0000335}}
 .html {
   background-color: #040303;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_design\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_design\.scss}line{font-family:\0000339}}
+.page-wrapper {
+  background-image: url("../images/umc_bg.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_design\.scss}line{font-family:\0000346}}
 ul {
   list-style: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_design\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_design\.scss}line{font-family:\0000351}}
 .logo img {
   float: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/Documents\/002_KLANTEN\/0011_UMC\/06_WEBSITE\/01_FILES\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_design\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_design\.scss}line{font-family:\0000356}}
 .message {
   background-color: #333;
+  color: white;
   border: 3px solid red;
   margin: 20px 0;
   padding: 20px 0;
+}
+
+/* Hide contextual links wrapper */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Sanne\/workspace\/sannejanssen\/umc\/www\/sites\/all\/themes\/wundertheme\/sass\/base\/_design\.scss}line{font-family:\0000368}}
+.html .language .contextual-links-wrapper {
+  display: none;
 }
 
 /* ---------- Import styles ---------- */

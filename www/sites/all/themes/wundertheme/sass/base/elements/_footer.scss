@@ -7,4 +7,67 @@
   background-color: $black;
   color: #777;
   padding: 3px 10px;
+  text-align: center;
+
+  @include at-breakpoint($breakpoint_2) {
+    text-align: left;
+    font-size: 12px;
+  }
+
+  .pipe {
+    display: none;
+  }
+
+  ul {
+    @include span-columns(14);
+    margin-top: 20px;
+
+    @include at-breakpoint($breakpoint_2) {
+      margin-top: 0;
+    }
+  }
+
+  li {
+    @include span-columns(14 omega);
+    border-top: 1px solid #444;
+
+    &.copyright,
+    &.company-name {
+      display: block;
+      padding: 10px;
+    }
+
+    a {
+      display: block;
+      padding: 10px;
+      color: #777;
+    }
+
+    @include at-breakpoint($breakpoint_2) {
+      @include reset-columns();
+      border-top: 0;
+
+      &.copyright,
+      &.company-name {
+        display: inline;
+        padding: 0;
+      }
+
+      a {
+        display: inline;
+        padding: 0;
+      }
+
+      &.pipe {
+        display: inline;
+        margin: 0 5px;
+      }
+
+
+    }
+
+    
+  }
+
+
 }

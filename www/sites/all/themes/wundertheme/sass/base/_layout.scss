@@ -6,9 +6,9 @@
  */
 
 $total-columns: 14;
-$column-width: 3.313em;
+$column-width: 3.313em; /* 53px */
 $gutter-width: 1.250em;
-$grid-padding: $gutter-width/2;
+$grid-padding: $gutter-width/4;
 
 /* Breakpoints */
 $breakpoint_1: 23em lt-ie9; /* iPhone landscape */
@@ -26,6 +26,7 @@ $breakpoint_3: 49em lt-ie9; /* iPad landscape *//*
 /* Layout */
 .container {
   @include container;
+  max-width: 62.438em;
 }
 
 header, footer, .main {
@@ -36,17 +37,9 @@ header, footer, .main {
 /* Layout setup */
 .page-wrapper {
 }
+
 .page {
 }
-
-
-.site-name,
-.facebook,
-.primary-navigation,
-.secondary-navigation {
-  @include span-columns(14);
-}
-
 
 
 .main {
